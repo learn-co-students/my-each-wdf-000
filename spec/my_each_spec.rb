@@ -5,7 +5,7 @@ describe "my_each" do
   it "does not call on each" do
     words = ['hi', 'hello', 'bye', 'goodbye']
 
-    expect(words).to_not receive(:each)
+     expect(words).to_not receive(:each)
 
   end
 
